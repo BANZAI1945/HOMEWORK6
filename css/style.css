@@ -2,7 +2,7 @@
     width: min(100% 1440px);
     justify-content: space-between;
     margin: auto;
-    
+
 
 }
 
@@ -25,12 +25,13 @@
     width: 100%;
     height: 100%;
 }
-.nav{
+
+.nav {
     width: 393px;
 }
 
-.ul{
-    
+.ul {
+
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -38,12 +39,15 @@
     font-size: 24px;
     line-height: 27.58px;
 }
-.active{
+
+.active {
     color: #133B3A;
 }
-.inactive{
+
+.inactive {
     color: #DDEAF8;
 }
+
 .search {
 
     display: flex;
@@ -55,7 +59,7 @@
     border-style: solid;
     border-color: #FFFFFF;
     justify-content: end;
-    
+
 
 }
 
@@ -67,8 +71,8 @@
     height: 32px;
     font-size: 32px;
     margin-right: 8px;
-    
-    
+
+
 }
 
 i {
@@ -76,42 +80,53 @@ i {
     height: 100%;
     color: #FFFFFF;
 }
-.section{
+
+.section {
     padding: 94px 98px;
     margin: auto;
-    
+
 }
-h2{
+
+h2 {
     font-family: Ubuntu;
     font-size: 32px;
     line-height: 36.77px;
     color: #27187F;
 }
-.div_articles{
-    width: min(100% 1244px) ;
+
+.div_articles {
+    width: min(100% 1244px);
     /* background: red; */
     margin-top: 68px;
     display: flex;
     flex-wrap: wrap;
     row-gap: 51px;
     column-gap: 22px;
-    
+
 }
-article{
+
+article {
     width: 400px;
     height: 333px;
     padding: 33px 30px;
     border-radius: 10px;
     background-color: #DDEAF8;
 }
-h3{
+
+.images_2 {
+    width: 100%;
+    height: 211px;
+}
+
+h3 {
     font-family: Ubuntu;
     font-size: 20px;
     line-height: 22.98px;
-    color: #133B3A  ;
+    color: #133B3A;
     margin-top: 33px;
 }
-.footer{
+
+.footer {
     display: flex;
     width: min(100% 1440px);
     background-color: #758BFD;
@@ -119,26 +134,33 @@ h3{
     padding: 75px 98px;
     justify-content: space-between;
 }
-.soc1{
+
+.soc1 {
     height: 22px;
 }
-h4{
+
+h4 {
     font-family: Century Gothic;
     font-size: 20px;
     line-height: 17px;
     letter-spacing: 0.2px;
     color: #FFFFFF;
 }
-.soc{
+
+.soc {
     display: flex;
     width: 114px;
     justify-content: space-between;
+
 }
-.ca{
+
+.ca {
     width: 97px;
     height: 55px;
 }
-.card{
+
+.card {
     display: flex;
     column-gap: 11px;
+    flex-wrap: wrap;
 }
